@@ -3,7 +3,7 @@
 	{
 		var $Id;	// ID группы
 		var $Name;	// Имя группы
-		var $Type;	// Фамилия пользователя
+		var $Type;	// Тип
 
 		
 		function __construct($Id, $Name, $Type)

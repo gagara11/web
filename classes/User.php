@@ -14,21 +14,18 @@
 		var $Status;	// Статус пользователя
 		var $PhoneNumber;	// Номер телефона
 		
-		function __construct($Id, $Name, $SurName, $ScreenName, $Gender, $FamilyStatus,
-							$Birthday, $HomeTown, $Country, $City, $Status, $PhoneNumber)
+		function __construct($Id, $Name, $SurName, $ScreenName, $Gender, 
+							$Birthday,  $Country, $City, $Status)
 		{
 			$this->Id	=	$Id;
 			$this->Name	=	$Name;
 			$this->SurName	=	$SurName;
 			$this->ScreenName	=	$ScreenName;
 			$this->Gender	=	$Gender;
-			$this->FamilyStatus	=	$FamilyStatus;
 			$this->Birthday	=	$Birthday;
-			$this->HomeTown	=	$HomeTown;
 			$this->Country	=	$Country;
 			$this->City	=	$City;
 			$this->Status	=	$Status;
-			$this->PhoneNumber	=	$PhoneNumber;
 		}
 	}
 ?>
