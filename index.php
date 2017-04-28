@@ -1,13 +1,15 @@
 <html>
 <body>
 <?php
-include 'connect.php';
+include $_SERVER['DOCUMENT_ROOT'].'/vk/connect.php';
 include $_SERVER['DOCUMENT_ROOT'].'/vk/services/UserService.php';
 include $_SERVER['DOCUMENT_ROOT'].'/vk/services/GroupService.php';
 include $_SERVER['DOCUMENT_ROOT'].'/vk/services/MarketService.php';
 include $_SERVER['DOCUMENT_ROOT'].'/vk/helpers/requestHelper.php';
 
 if (isset($_POST['getUser'])){
+		
+		
 		
 		foreach (GetUser($_POST['userID']) as $user )
 		{	

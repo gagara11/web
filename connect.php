@@ -1,7 +1,7 @@
 ﻿<?php 
 
 	//
-	require 'config.php'; 
+	require $_SERVER['DOCUMENT_ROOT'].'/vk/config.php'; 
 
 	$redirect_uri = 'localhost/vk/connect.php';
 
